@@ -10,4 +10,10 @@ var store = [{
         "tags": ["update"],
         "url": "/jekyll/welcome-to-jekyll/",
         "teaser": "/assets/images/500x300.png"
+      },{
+        "title": "Checkpoint, October 17 2023",
+        "excerpt":"I promised my friends I would blog my journey for the next year; it’s taken a while, but here we finally are. What was it that Douglas Adams said about deadlines? Suggested background music:   I’m 22 years, four months, and five days old plus or minus a few hours....","categories": ["Checkpoint","Life"],
+        "tags": ["checkpoint","life","poland"],
+        "url": "/checkpoint/life/checkpoint-1/",
+        "teaser": "/assets/images/500x300.png"
       }]
