@@ -1,9 +1,8 @@
 ---
 layout: home
 author_profile: true
+title: Hello, I'm Kevin!
 ---
-
-# Hello, I'm Kevin! 
 
 I recently graduated with a master's in computer science from the University of Michigan, and I am currently serving as an English Teaching Assistant in the US Fulbright Program in Poland. Currently I am teaching computer science courses in English to Polish students.
 
