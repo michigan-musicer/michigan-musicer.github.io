@@ -1,7 +1,7 @@
 ---
-title: "Checkpoint, October 17 2023"
+title: "Checkpoint, October 16 2023"
 header:
-  teaser: "/assets/images/500x300.png"
+  teaser: "/assets/images/2023-10-16-checkpoint-1/warsaw.PNG"
 categories: 
   - Checkpoint
   - Life
@@ -13,9 +13,9 @@ tags:
 
 I promised my friends I would blog my journey for the next year; it's taken a while, but here we finally are. What was it that Douglas Adams said about deadlines? 
 
-*Suggested background music:*
+*Suggested background music:* **Donkey Kong Country 2 - Stickerbush Symphony**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EETV2JNBhcc?si=nL0ph6x97fMPzcq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://inv.us.projectsegfau.lt/embed/EETV2JNBhcc" title="Invidious video player" frameborder="0" allowfullscreen></iframe>
 
 &nbsp;
 
@@ -35,5 +35,5 @@ Still, I long for home. I want to be with my friends -- not on a Discord call bu
 
 Anyway, that's where I'm at right now. My first class is in an hour. I'll keep you all posted.
 
-[^1]: It really should be seven. The sun is setting at 15:30 in December, which is completely bonkers to me. But then you could say Poland is Eastern European, and they really don't like it when you say that...
+[^1]: It really should be seven. The sun is setting at 15:30 in December, which is completely bonkers to me. But then you could say Poland is Eastern European, and supposedly they really don't like it when you say that...
 [^2]: Nothing against the folks who are satisfied at that prospect; I do enjoy coding and I find large software ecosystems in particular fascinating. But I don't think coding by itself is enough to satisfy me.
