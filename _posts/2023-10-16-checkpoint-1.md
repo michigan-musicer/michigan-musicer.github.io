@@ -13,7 +13,7 @@ tags:
 
 I promised my friends I would blog my journey for the next year; it's taken a while, but here we finally are. What was it that Douglas Adams said about deadlines? 
 
-*Suggested background music:* **Donkey Kong Country 2 - Stickerbush Symphony**
+*Suggested music:* **Donkey Kong Country 2 - Stickerbush Symphony**
 
 <iframe width="560" height="315" src="https://inv.us.projectsegfau.lt/embed/EETV2JNBhcc" title="Invidious video player" frameborder="0" allowfullscreen></iframe>
 
