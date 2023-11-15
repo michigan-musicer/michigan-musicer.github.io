@@ -7,3 +7,19 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+@media only screen and (max-width: 600px) {
+    .invidious-container {
+        width: 343;
+        height: 193;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .invidious-container {
+        width: 560px;
+        height: 315px;
+    }
+}
+
+

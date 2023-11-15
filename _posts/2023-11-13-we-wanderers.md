@@ -43,7 +43,7 @@ Some brief Googling tells us that Gibran's work focused on spirituality, and the
 
 *Suggested music:* **Chewie Melodies - Octopath Traveler Piano Collection Cover**
 
-<iframe width="560" height="315" src="https://invidious.no-logs.com/embed/CpsnBGWZcO4" title="Invidious video player" frameborder="0" allowfullscreen></iframe>{: .align-center}
+<iframe class="invidious-container" src="https://invidious.no-logs.com/embed/CpsnBGWZcO4" title="Invidious video player" frameborder="0" allowfullscreen></iframe>{: .align-center}
 
 ---
 
