@@ -37,6 +37,7 @@ The project's working title is "Hey Falcon, Hey Dragon" based on the traditional
 [^3]: Could also refer to an uhlan, which is technically a different type of troop. Additionally, the song is about a *Ukrainian* soldier saying his goodbyes; it's still a Polish folk song, and I think the reason for this is that modern-day Ukraine was part of the Polish-Lithuanian commonwealth at this point. Notably, *Hej sokoły* saw an uptick in popularity among both Ukrainian and Polish speakers following the full-scale invasion of Ukraine by Russia in 2022.
 
 It's a strange project for an engineer. I'd like to explain.
+
 ---
 
 Most of what people say publicly about family is positive. Parents brag about their children's accomplishments, children tease grandparents' attempts to adapt to technology, orphans reminisce on how mom or dad used to react to the first snow of the year. 
