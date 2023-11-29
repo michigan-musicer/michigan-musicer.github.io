@@ -12,7 +12,11 @@
 
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
+    <!-- 
+    we need to reorder the original conditional because liquid reads conditionals right to left. 
+    https://shopify.github.io/liquid/basics/operators/
+    -->
+    {% if teaser and include.type == "grid" or include.type == "grid_small" %}
       <div class="archive__item-teaser">
         <img src="{{ teaser | relative_url }}" alt="">
       </div>

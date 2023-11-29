@@ -4,6 +4,46 @@ layout: archive
 
 {{ content }}
 
+<h2>Posts to read if you are interested in...</h2>
+
+
+<!-- <div class="home-category-container">
+  <h3 class="archive__subtitle">...my teaching experience</h3>
+  <div class="grid__wrapper">
+  {% for post in site.categories["Teaching"] limit:4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
+</div> -->
+
+<div class="home-category-container">
+  <h3 class="archive__subtitle">...my 40 days through Europe</h3>
+  <div class="grid__wrapper">
+  {% for post in site.categories["40 Days through Europe"] limit:4 %}
+    {% include archive-single.html type="grid_small" %}
+  {% endfor %}
+  </div>
+  <div>  <!-- we need a "view all" button here to go to the hyperlink for this category -->  </div>
+</div>
+
+<div class="home-category-container">
+  <h3 class="archive__subtitle">...my personal project in Poland, "Hey Falcon, Hey Dragon"</h3>
+  <div class="grid__wrapper">
+  {% for post in site.categories["Hey Falcon, Hey Dragon"] limit:4 %}
+    {% include archive-single.html type="grid_small" %}
+  {% endfor %}
+  </div>
+</div>
+
+<div class="home-category-container">
+  <h3 class="archive__subtitle">...computer science and my technical projects / writeups</h3>
+  <div class="grid__wrapper">
+  {% for post in site.categories["Software"] limit:4 %}
+    {% include archive-single.html type="grid_small" %}
+  {% endfor %}
+  </div>
+</div>
+
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% if paginator %}
