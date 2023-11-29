@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: "Adding selected categories to the homepage"
+=======
+title: "Setting up the Staticman API for your personal site in 2023"
+>>>>>>> 7879c23cf112fdae52980d526fc78dbd3db32765
 header:
   teaser: "/assets/images/2023-11-29-home-categories/screenie.png"
   og_image: "/assets/images/2023-11-29-home-categories/screenie.png"
