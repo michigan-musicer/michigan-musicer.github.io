@@ -4,7 +4,6 @@ header:
   teaser: "/assets/images/2023-10-16-checkpoint-1/warsaw.PNG"
 categories: 
   - Checkpoint
-  - Life
 tags:
   - checkpoint
   - life
@@ -15,9 +14,7 @@ I promised my friends I would blog my journey for the next year; it's taken a wh
 
 *Suggested music:* **Donkey Kong Country 2 - Stickerbush Symphony**
 
-<iframe width="560" height="315" src="https://inv.us.projectsegfau.lt/embed/EETV2JNBhcc" title="Invidious video player" frameborder="0" allowfullscreen></iframe>
-
-&nbsp;
+<iframe class="invidious-container" src="https://inv.in.projectsegfau.lt/embed/EETV2JNBhcc" title="Invidious video player" frameborder="0" allowfullscreen></iframe>{: .align-center}
 
 I'm 22 years, four months, and five days old plus or minus a few hours. This past August (really this past May, but for technical reasons it's August), I graduated from a big school called Michigan in a small city called Ann Arbor. In winter you could sit under the snowy grey trees and let the flow of the Huron River soothe your ears, and in summer you could perch yourself atop a hill on North Campus and watch the reds and pinks of the sunrise paint over newly green trees. I loved it, then hated it, then loved it again until I said goodbye.
 

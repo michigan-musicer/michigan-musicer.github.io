@@ -4,10 +4,8 @@ header:
   teaser: "/assets/images/2023-11-19-explanation-personal-project/dragon.png" 
   og_image: "/assets/images/2023-11-19-explanation-personal-project/dragon.png"
 categories: 
-  - Life
   - Hey Falcon, Hey Dragon
 tags:
-  - life
   - history
   - poland
   - china

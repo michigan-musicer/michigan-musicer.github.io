@@ -4,13 +4,12 @@ header:
   teaser: "/assets/images/2023-11-13-we-wanderers/reflection.JPG" 
   og_image: "/assets/images/2023-11-13-we-wanderers/reflection.JPG"
 categories: 
-  - Life
-  - Travel
   - Essays
+  - Travel
 tags:
-  - life
-  - travel
   - essays
+  - travel
+  - life
   - poland
   - fulbright
   - cluj-napoca
@@ -43,7 +42,7 @@ Some brief Googling tells us that Gibran's work focused on spirituality, and the
 
 *Suggested music:* **Chewie Melodies - Octopath Traveler Piano Collection Cover**
 
-<iframe class="invidious-container" src="https://invidious.no-logs.com/embed/CpsnBGWZcO4" title="Invidious video player" frameborder="0" allowfullscreen></iframe>{: .align-center}
+<iframe class="invidious-container" src="https://inv.in.projectsegfau.lt/embed/CpsnBGWZcO4" title="Invidious video player" frameborder="0" allowfullscreen></iframe>{: .align-center}
 
 ---
 
