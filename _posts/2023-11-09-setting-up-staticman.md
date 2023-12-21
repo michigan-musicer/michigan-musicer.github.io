@@ -5,7 +5,6 @@ header:
   og_image: "/assets/images/2023-11-09-setting-up-staticman/staticman-avatar.png"
 categories: 
   - Software
-  - Personal Projects
 tags:
   - software
   - projects

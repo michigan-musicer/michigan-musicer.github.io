@@ -5,7 +5,6 @@ header:
   og_image: "/assets/images/2023-11-29-home-categories/screenie.png"
 categories: 
   - Software
-  - Personal Projects
 tags:
   - software
   - projects

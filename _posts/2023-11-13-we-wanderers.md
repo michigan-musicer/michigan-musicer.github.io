@@ -5,7 +5,6 @@ header:
   og_image: "/assets/images/2023-11-13-we-wanderers/reflection.JPG"
 categories: 
   - Essays
-  - Travel
 tags:
   - essays
   - travel

@@ -4,7 +4,6 @@ header:
   teaser: "/assets/images/2023-11-09-why-no-replies/comments.png"
 categories: 
   - Software
-  - Personal Projects
 tags:
   - software
   - projects
