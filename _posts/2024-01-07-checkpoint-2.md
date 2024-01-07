@@ -28,6 +28,8 @@ Christmas first: we spent two nights in Kraków and one night with my one friend
 
 ![](/assets/images/2024-01-07-checkpoint-2/03_k.JPG){: .align-center}
 
+![](/assets/images/2024-01-07-checkpoint-2/03__christmas.JPG){: .align-center}
+
 If I'm being honest, at some point I stopped wanting to be there. Not because it became unpleasant or because I disliked the warmth, but because I became afraid of making everything colder. Part of me wanted to stop participating and simply observe, to slip out the door and look in through the window. Take notes. Avoid contaminating the scene.
 
 In my heart, I *do* want to be inside. It's just...hard. I hope they understand.
