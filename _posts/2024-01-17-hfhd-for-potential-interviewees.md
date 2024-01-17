@@ -12,7 +12,7 @@ tags:
   - falcon-dragon
 ---
 
-An explanation of a Chinese-American's personal project in Poland. This is intended to be a formal overview with information for potential interviewees.
+An explanation of a Chinese-American's personal project in Poland. This is intended to be a semi-formal overview with information for potential interviewees.
 
 ## Introduction 
 
