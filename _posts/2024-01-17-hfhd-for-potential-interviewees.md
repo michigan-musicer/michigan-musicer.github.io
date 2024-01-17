@@ -83,20 +83,18 @@ I'll expand this section and turn it into an FAQ depending on what questions com
 
 What follows is my understanding. I am not a scholar of Polish or Eastern European history, so I apologize for any mistakes / misconceptions here.
 
-Poland and its people have been significant players in various historical and social contexts (early practitioners of religious tolerance, the defense of Europe from the Ottomans, establishing the first European constitutional monarchy[^0], Solidarity and the fall of the USSR, ...). However, in my high school education[^0], Poland is only mentioned first as a member of the Polish-Lithuanian commonwealth, second as the first nation to fall to a military invasion by Nazi Germany. This always seemed weird to me, and I've always wanted to dive deeper into this powerful yet overshadowed country's history.
+Poland and its people have been significant players in various historical and social contexts (early practitioners of religious tolerance, the defense of Europe from the Ottomans, establishing the first European constitutional monarchy[^1], Solidarity and the fall of the USSR, ...). However, in my high school education[^0], Poland is only mentioned first as a member of the Polish-Lithuanian commonwealth, second as the first nation to fall to a military invasion by Nazi Germany. This always seemed weird to me, and I've always wanted to dive deeper into this powerful yet overshadowed country's history.
 
 [^0]: Unsure how big of a deal this considering that the nation. Apparently the document was a significant legal / political milestone generally, but it didn't do much to change Poland-Lithuania's deteriorating geopolitical situation.
 
-[^0]: I went to a good enough high school, but AP World History did not fit into my schedule. Perhaps they discuss Poland more in that class, but I wouldn't be surprised if it was more Western Europe-centric.
+[^1]: I went to a good enough high school, but AP World History did not fit into my schedule. Perhaps they discuss Poland more in that class, but I wouldn't be surprised if it was more Western Europe-centric.
 
 Additionally, Polish history broadly mirrors Chinese history. Pre-20th century, both were geopolitical giants brought down by opportunists from Western Europe; Poland-Lithuania was broken into three partitions administered by Prussia, Austria, and Russia, while the Qing gradually lost control of their people and lands to Britain and France. In the 20th century, both nations took up new political systems and asserted greater autonomy over their own affairs, but subsequently suffered massively in WW2 and entered communist regimes after that.
 
-Currently, Poland is arguably the most economically and politically significant former communist nation of Europe. China, meanwhile, continues to and is currently facing a period of economic downturn after 
+Currently, Poland is a democracy and arguably the most economically and politically significant former communist nation of Europe. China, meanwhile, remains communist and is currently facing a period of economic downturn after sharply rising to the position of #2 world power. If you are okay with the argument that the two countries had a similar 20th century, then there's the question of why things turned out so differently. I also think there's an interesting hypothetical of how Poles might be different if communism had prevailed in Eastern Europe, and how the Chinese might be different if communism had fallen in China.
 
-There are more differences than similarities, but with time and effort I think learning about one can help provide context to the other. Additionally, I don't think it's a parallel that most scholars would want to spend significant time and effort on, so I think this project will at least be original.
+In the end, I think there are more differences than similarities, but with time and effort I'd like to believe that learning about one can help provide context on the other. Additionally, I don't think it's a parallel that most scholars would want to spend significant time and effort on, so this project will at least be something original. Who knows? Maybe someone with more resources and background knowledge will be inspired to do a more thorough comparison.
 
 <!-- #### What can you give me in return?
 
 Unfortunately I can't pay you directly for your time (and I don't think this is a good policy for conducting interviews anyway). I am currently serving as a Fulbright English Teaching Assistant in Łomża, I have master's and bachelor's degrees in computer science, and I write and share blog posts in my free time. If you have ideas for ways I can provide value to you as a teacher, programmer, or English-language writer, I would be open to hearing them; just keep in mind that I must commit to my students and host institution first. -->
-
-
