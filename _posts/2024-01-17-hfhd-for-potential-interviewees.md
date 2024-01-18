@@ -24,13 +24,13 @@ I am grateful to anyone willing to share their experiences, since this is someth
 
 #### What would you like from me?
 
-I would like to conduct interviews for roughly one hour. I would like to conduct interviews with Poles in-person (since I will be traveling around the country in February 2024); due to distance, I will have to conduct interviews with American immigrants online.
+I would like to conduct recorded interviews for roughly one hour. I would like to conduct interviews with Poles in-person (since I will be traveling around the country in February 2024); due to distance, I will have to conduct interviews with American immigrants online.
 
 The topics covered by the interview may be sensitive topics. I do not expect every person I contact to accept, and I will not require interviewees to answer every question. 
 
 #### What are you planning on doing with the interview material?
 
-I will summarize my personal takeaways and reflectoins in public blog posts. All interviewees will be anonymized, and I will not post raw audio or transcripts. I may use some direct quotes, but any identifying information will be concealed.
+Interviews will be recorded, and I will summarize my personal takeaways and reflectoins in public blog posts. All interviewees will be anonymized, and I will not post raw audio or transcripts. I may use some direct quotes, but any identifying information will be concealed.
 
 I'm not intending the results to be particularly formal or academic in nature; the project is not planned or structured enough to be academic. I think my writing will be free-form.
 
