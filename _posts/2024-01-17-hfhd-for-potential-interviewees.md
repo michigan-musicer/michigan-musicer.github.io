@@ -77,7 +77,19 @@ For residents of Poland:
 
 ## Other questions
 
-I'll expand this section and turn it into an FAQ depending on what questions come up.
+This is the end of the critical content; the rest of this is essentially an FAQ, which I will expand depending on what questions / confusions come up.
+
+#### What are your qualifications?
+
+I am currently serving as an English Teaching Assistant in Łomza, a city in the Podlaskie voivodeship of Poland, through the US-Polish Fulbright Program. The US Fulbright Program is a non-profit service program dedicated to cultural exchange and international understanding; the Polish branch is sponsored by both the United States Department of State's Bureau of Educational and Cultural Affairs and the Minister of Education and Science in Poland. Before coming to Poland, I served two years as a graduate student instructor (GSI) for three different courses in the University of Michigan's computer science department.
+
+I also have previous experience working on an interview project called *Brilliant Little Fires*. Due to maintenance issues, the website for this earlier project is not currently visible. If you want to get an idea of that project, you can view the old source files on [this GitHub repository](https://github.com/michigan-musicer/bis/tree/main); sample content includes [the list of questions](https://github.com/michigan-musicer/bis/blob/main/public/md/meth-questions.md), [the overall interview procedure](https://github.com/michigan-musicer/bis/blob/main/public/md/meth-interview-proc.md), and [a sample interview transcript](https://github.com/michigan-musicer/bis/blob/main/public/md/interviews/flamingo.md). If you're curious about the rest of the project but aren't sure how to navigate the site, feel free to contact me using any of the contact methods linked on the side.
+
+Owing to my past experience, my focus is on learning about and communicating other people's stories in some sort of educational manner rather than publishing something formal in an academic journal. I do not have the same level of qualification as a professional historian / sociologist, and I am not expecting to produce the same level of work as such an individual.
+
+#### Is this project through Fulbright?
+
+No, this project is independent of my Fulbright grant. 
 
 #### Why do you care about Poland in particular when you're not Polish?
 
@@ -94,6 +106,10 @@ Additionally, Polish history broadly mirrors Chinese history. Pre-20th century, 
 Currently, Poland is a democracy and arguably the most economically and politically significant former communist nation of Europe. China, meanwhile, remains communist and is currently facing a period of economic downturn after sharply rising to the position of #2 world power. If you are okay with the argument that the two countries had a similar 20th century, then there's the question of why things turned out so differently. I also think there's an interesting hypothetical of how Poles might be different if communism had prevailed in Eastern Europe, and how the Chinese might be different if communism had fallen in China.
 
 In the end, I think there are more differences than similarities, but with time and effort I'd like to believe that learning about one can help provide context on the other. Additionally, I don't think it's a parallel that most scholars would want to spend significant time and effort on, so this project will at least be something original. Who knows? Maybe someone with more resources and background knowledge will be inspired to do a more thorough comparison.
+
+## Isn't it supposed to be the Polish eagle?
+
+Not here. The title is inspired by the Polish song *Hej sokoły*, which translates to "Hey falcon". There's not really an equivalent song in Chinese as far as I know, so I just picked "dragon" and kept the parallelism. 
 
 <!-- #### What can you give me in return?
 
