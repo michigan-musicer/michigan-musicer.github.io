@@ -16,11 +16,13 @@ An explanation of a Chinese-American's personal project in Poland. This is inten
 
 ## Introduction 
 
-"Hey Falcon, Hey Dragon" is the working title I have for a broad project to learn about compare 20th-century Polish and Chinese history. My main goal is to collect stories from Polish residents and immigrants (mostly Chinese, but also Polish and/or Eastern European immigrants) to the United States, then synthesize those stories into an analysis. I would particularly like to focus on the impact of difficult historical periods - of war and oppression - on individuals, as well as examine how they affected their relationships (which for now is centered on family).
+"Hey Falcon, Hey Dragon" is the working title I have for a broad project to learn about and compare 20th-century Polish and Chinese history. My main goal is to collect stories from Polish residents and immigrants (mostly Chinese, but also Polish and/or Eastern European immigrants) to the United States, then synthesize those stories into an analysis. I would particularly like to focus on the impact of difficult historical periods - of war and oppression - on individuals, as well as examine how they affected their relationships (which for now is centered on family).
 
 I am grateful to anyone willing to share their experiences, since this is something meaningful for me.
 
 ## The important questions
+
+**All info subject to change.**
 
 #### What would you like from me?
 
@@ -30,7 +32,7 @@ The topics covered by the interview may be sensitive topics. I do not expect eve
 
 #### What are you planning on doing with the interview material?
 
-Interviews will be recorded, and I will summarize my personal takeaways and reflectoins in public blog posts. All interviewees will be anonymized, and I will not post raw audio or transcripts. I may use some direct quotes, but any identifying information will be concealed.
+Interviews will be recorded, and I will summarize my personal takeaways and reflections in public blog posts. All interviewees will be anonymized. I may separately post transcripts and include direct quotes in writeups, but any identifying information will be concealed.
 
 I'm not intending the results to be particularly formal or academic in nature; the project is not planned or structured enough to be academic. I think my writing will be free-form.
 
@@ -97,7 +99,7 @@ What follows is my understanding. I am not a scholar of Polish or Eastern Europe
 
 Poland and its people have been significant players in various historical and social contexts (early practitioners of religious tolerance, the defense of Europe from the Ottomans, establishing the first European constitutional monarchy[^1], Solidarity and the fall of the USSR, ...). However, in my high school education[^0], Poland is only mentioned first as a member of the Polish-Lithuanian commonwealth, second as the first nation to fall to a military invasion by Nazi Germany. This always seemed weird to me, and I've always wanted to dive deeper into this powerful yet overshadowed country's history.
 
-[^0]: Unsure how big of a deal this considering that the nation. Apparently the document was a significant legal / political milestone generally, but it didn't do much to change Poland-Lithuania's deteriorating geopolitical situation.
+[^0]: Unsure how big of a deal this. Apparently the document was a significant legal / political milestone generally, but it didn't do much to change Poland-Lithuania's deteriorating geopolitical situation.
 
 [^1]: I went to a good enough high school, but AP World History did not fit into my schedule. Perhaps they discuss Poland more in that class, but I wouldn't be surprised if it was more Western Europe-centric.
 
