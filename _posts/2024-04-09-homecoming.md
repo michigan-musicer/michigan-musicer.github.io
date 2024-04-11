@@ -549,7 +549,7 @@ Part of me wishes I had spent the week sitting down and talking with all my frie
 
 [^56]: Yes I'm obsessed. Look, they don't have the good stuff in my Polish city, alright? We have a bubble tea shop, but nothing of the same quality as in the US. 
 
-I used to be so afraid that I would never get to tell them all the things I want to say. I no longer believe that's something we should fear, because for the people you care about, that's just true: there will always be something I want to say. That's okay. Love need not be spoken to be true.
+I used to be so afraid that I would never get to tell them all the things I want to say. I no longer believe that's something we should fear, because for the people you care about, that's just a fact: there will always be something left to say. That's okay. Love need not be spoken to be true.
 
 ![dtw](/assets/images/2024-04-09-homecoming/80-dtw.JPG)
 
