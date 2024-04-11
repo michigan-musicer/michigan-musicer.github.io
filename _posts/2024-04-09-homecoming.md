@@ -1,5 +1,8 @@
 ---
 title: "Homecoming"
+header:
+  teaser: "/assets/images/2024-04-09-homecoming/00-union.JPG"
+  og_image: "/assets/images/2024-04-09-homecoming/00-union.JPG"
 categories: 
   - Essays
 tags:
@@ -310,8 +313,6 @@ Oh Frita Batidos, how I missed you.
 ![frita](/assets/images/2024-04-09-homecoming/41-frita.jpg)
 
 ![batido](/assets/images/2024-04-09-homecoming/42-batido.jpg)
-
-![union](/assets/images/2024-04-09-homecoming/42-1-union.JPG)
 
 A hawk had killed a squirrel near the law quad and sat itself down near a tree to start eating. Another squirrel in said tree climbed down to look at the scene and was clearly giving the world a squirrel equivalent of a thousand-yard stare. Poor guy.
 
