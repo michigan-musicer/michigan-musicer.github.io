@@ -121,10 +121,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:musicer@umich.edu"
-    - label: "Old website"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.michiganmusicer.com/"
+      url: "mailto:kevin@musicer-kw.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/michigan-musicer"
