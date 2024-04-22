@@ -4,6 +4,8 @@ layout: archive
 
 {{ content }}
 
+{%comment%}
+
 <h2>Posts to read if you are interested in...</h2>
 
 {%comment%}
@@ -46,6 +48,8 @@ layout: archive
   {% endfor %}
   </div>
 </div>
+
+{%endcomment%}
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
