@@ -1,10 +1,10 @@
 # main links
 main:
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/
-  # - title: "Blog"
-  #   url: /blog/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  # It would be better to have an archive page of all posts listed conveniently in chronological order or something (which is just the front page rn).
+  # - title: "Posts by tag"
+  #   url: /tags/
+  # - title: "Posts by category"
+  #   url: /categories/
+  - title: "Curriculum vitae"
+    url: /Kevin_Wang_CV.pdf/
+  
