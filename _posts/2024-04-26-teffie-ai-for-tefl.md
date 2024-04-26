@@ -16,8 +16,6 @@ Summary and analysis of Teffie, a portable, 100% open-source generative AI teach
 
 This is meant to be a longer, detailed writeup broken up into smaller, more easily digestible chunks. Jump to a desired section using the table of contents below.
 
----
-
 ## Table of contents
 
 For a five-minute executive summary, [jump here](#executive-summary).
@@ -44,15 +42,6 @@ If you are interested in contributing or providing critique, please reach out! I
 
 [Back to table of contents.](#table-of-contents)
 
-<!-- [^0]: To my understanding, it will be significantly more difficult to provide high quality performance on mobile devices due to inferior hardware. In my experience, most classrooms will at least be equipped with a computer, so the project is angled towards maintaining performance on laptops and desktops. That said, availability on mobile could greatly benefit classrooms in regions of the world with less access to technology. -->
-
-
- <!-- . -->
-
-<!-- For TEFL teachers, example lesson plans with such a chatbot are provided [below](#somewhere).
-
-For software engineers, future goals of the software are as follows:-->
-
 ## Background and motivations
 
 I am a current scholar in the U.S. Fulbright Student Program in Poland, where I teach English and computer science to college students in rural Poland. I developed Teffie to explore generative AI options in my own classrooms. Teffie's name is a play on TEFL, the standard abbreviation for "teaching English as a foreign language".
@@ -69,8 +58,6 @@ A few example videos are shown below:
 
 DougDoug's content is proof that generative models provide novel options for social interaction, particularly when there is an activity leader (e.g. an entertainer or teacher) and an audience (e.g. Twitch chat or a class of students). I do not recommend directly using DougDoug's content in the classroom, but the variety of interactions that makes DougDoug's content interesting to online audiences can similarly be used to raise student engagement in course content. Worth noting is that LLMs (large language models) have problems with accuracy of generated responses, which precludes their usage in many STEM and social science fields. However, LLMs *can* generate stories, answer questions, and simulate human conversation ad-hoc in natural languages. As such, in education, **LLMs are uniquely ideal for the foreign language classroom.**
 
-<!-- AI-supplemented activities can challenge students to solve non-traditional assignments.  -->
-
 In my view, there are two primary points worth addressing:
 - Teachers want successful lesson plans and other positive results to be convinced to try generative AI themselves.
 - Teachers want a product that is as technically simple as possible - ideally something that "works out of the box".
@@ -82,9 +69,6 @@ Regarding the first point: using generative AI to entertain a large online audie
 To establish that there is a basis for Teffie's existence, I have successfully used ChatGPT in lessons to raise student engagement and to make students practice vocabulary that they wouldn't normally use. I have created other lessons used with Teffie that have been hit or miss depending on the quality of generated responses; I believe that if Teffie were developed, said lesson plans would be engaging and successful. If you're curious for more on the teaching aspect specifically, [jump down here](#for-teachers).
 
 Regarding the second point: I believe the most technically simple solution should be as local as possible. In other words, as much of the work should be done on the user's computer as opposed to remotely on a server (i.e. some other computer somewhere on the internet, or in the "cloud" as software people like to call it). A user may need the internet to install the product and download models, but that should be the extent of it; there should be no back-and-forth with a server when generating responses. From what I've seen[^3], there's a lack of generative AI projects that run entirely locally. There are many, many chatbot projects out in the wild, but the vast majority of the ones on GitHub provide server code and client code. Others utilize existing APIs that require subscription to a paid / freemium service. 
-<!-- it would using existing SaaS solutions in a vocal chatbot product (e.g. OpenAI STT/TTS, ElevenLabs, Speechify...) could severely limit . Consider a course that meets 90 minutes per session twice a week for four months - about 12 hours a month. If a single chatbot instance is used for 30 minutes a week, we can approximate the cost breakdown as follows:  -->
-<!-- - 
-- $22 / monht for Elevenlabs' creator tier.  -->
 
 [^3]: There's always a possiblity that I missed something, especially with how fast-paced the ML space is. 
 
@@ -129,19 +113,9 @@ Machine learning models for other tasks exist. Speech to text (also known as aut
 
 When you are using Teffie, your data is not saved or used by Teffie in any way. Teffie just uses the models; it does not send data back to Microsoft or anyone else for use in future model training. The tricky thing is that other AI products *do* use user data - [see this help article from OpenAI on how ChatGPT uses your data to improve performance](https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance). From my experience, it's hard to tell when an AI product trains on user data or not; if you are concerned about a particular AI product, it's best to look this up.
 
-<!-- [^0]: Some engineers will complain that the verbage here is inexact, which it is. Technically, the model is the result of the program; the program itself often contains a lot of other functionality that isn't used in the final model. -->
-
-<!-- When you are using ChatGPT, Gmail's autocomplete feature, or a fun website that says things in your voice, you are using a "finished" version of that model. I believe that . -->
-
 ## Existing resources for educators
 
 There is already some content online on using generative AI as an educator. UPenn's Wharton Business School has a crash course on [generative AI for education](https://www.youtube.com/watch?v=t9gmyvf7JYo&list=PL0EdWFC9ZZrUAirFa2amE4Hg05KqCWhoq&ab_channel=WhartonSchool). This series targets a general pedagocical audience and, at a glance, doesn't focus too much on using AI directly in the classroom. Christina Cavage from Immerse also provides some [TEFL lesson plan formats employing generative AI](https://www.linkedin.com/feed/update/urn:li:activity:7188577152210976768/). In general, however, most resources on generative AI for education are to make materials for courses and individual lessons, *not* using generative AI directly in the lesson like Teffie is intended to be.  
-
-<!-- In terms of the technology out there: LLM stands for "large language model", which is a catch-all term for technology like ChatGPT[^0]. In tech, 
-
-[^0]: If you do some exploring, you will find other LLMs like Mistral, LLaMa 1/2/3, Gemini, Grok, Claude...The latest, best models are all founded on similar technology: transformer architecture usually in combination with reinforcement learning human feedback (RLHF). -->
-
-<!-- [HuggingFace documentation](https://huggingface.co/learn/nlp-course/en/chapter1/2) -->
 
 If you are a TEFL teacher and know more about language learning research about settings with multiple teachers / third-party actors, please let me know!
 
@@ -173,10 +147,6 @@ After creating the Teffie prototype, I came up with two more freer practice acti
 
 [^11]: Teffie also doesn't track conversation history and will not remember what you just said to it, unlike ChatGPT. Adding this feature requires some more technical work, which I don't thiiiiiink is too hard? Not sure if it's a priority compared to other critical story points. 
 
-<!-- Teffie actually worked quite well in a few cases; students would give simpler prompts like  and Teffie would flesh it out into something like . However, the gap between Teffie's generative model and ChatGPT was noticeable, and I had to reinterpret quite a few nonsense responses.   -->
-
-<!-- Generative AI doesn't add much if there's no student interaction. In particular, Teffie without the capacity to listen and speak would just be a worse version of ChatGPT. -->
-
 In general, from my experience, generative AI is a beneficial and easy addition to freer practice activities if it serves as some sort of intermediary. If a student says something that generative AI interprets that then goes on to the teacher or another student, then it introduces new content that the teacher or (ideally) student has to react to. Generative AI is detrimental when it occupies too much space; if you use generative AI for the sake of using generative AI, expect students to get lost and for the lesson to miss out on a lot of interactivity.
 
 it should be noted that I am a native English speaker who doesn't understand the local language; this means students have to communicate with me in English, forcing them to practice. Often, if students are struggling and can communicate with the teacher in their native language, they will try to do so, circumventing the learning experience. Teffie and other generative AI solutions can get around this because they will only understand English[^12]; if you set up activities using Teffie or similar products, then students are forced to use and learn the foreign language.
@@ -190,18 +160,14 @@ Not every lesson should contain Teffie. Even if the generated responses improve 
 # For programmers
 
 On the current state of the code, todos, and possible additions.
-<!-- , and some notes on a more multithreaded approach that I tried at first. -->
 
 ## Technical requirements
 
 - Maintain near-live performance - ideally, keep time between the start of input transcription and the start of audio output within a 10 second time limit. Any longer than this makes it difficult to maintain students' attention.
 - Remain entirely local (within reasonable memory / video memory limits) so that users can run the software with as little technical complication as possible.
-<!-- without internet connection and without worrying about setting up their own servers. -->
 - Avoid interfacing with paid / freemium APIs so that users never have to worry about having to pay - Teffie is intended to be free for use in the classroom, forever! 
 
 I emphasize again: Teffie is *not* going to maximize the quality of generated text or audio. If you have the financial means and the technical know-how, then in 99% of cases, the correct approach should be to use APIs from commercial vendors for your ML apps. If you are as restricted on hardware as Teffie is meant to be, then there is no way that you will compete with models with 300 billion parameters running on GPU-laden servers that are dedicated to executing ML applications. 
-
-<!--  do think there is something to be said about a 100% local, open source chatbot - unlike paid APIs, scaling upwards has no direct financial cost - but i -->
 
 ## Current state
 
@@ -219,8 +185,7 @@ Logging is included throughout the program; detailed debug logging can be disabl
 	- I am not familiar with the process of releasing apps on Windows or MacOS, so I'm not sure how difficult the platform engineering would be. To my understanding, however, Python takes much less work to port than C++ or other lower-level languages.
 - **Fine-tuning is a must**. I did not pursue this for the prototype because it was more important to demonstrate a valid proof-of-concept. However, the quality of generated text and speech needs to improve drastically to really consider Teffie "conversational". This is less conceptually challenging and moreso something that will take time and trial-and-error to figure out.
     - Whisper out-of-the-box struggles significantly with accurately capturing accented English. That is, English learners with an accent will often be mistranscribed by the model. This doesn't be fully corrected; learners will make pronunciation mistakes, and the model shouldn't necessarily behave as if they didn't.
-    - Phi-1.5 is trained on textbooks and has a tendency to fixate on specific topics - soccer games, a classroom setting, a girl named Lily...Microsoft also emphasizes that there was no pretraining done to avoid offensive responses, which is problematic - you don't want something hateful coming out of your teaching assistant in a classroom setting. Good behavior is very difficult to enforce via fine-tuning, so this may be something to handle with more rudimentary filtering. 
-	<!-- A model trained on real-world data (e.g. DistilBERT) could provide more human-like responses out-of-the-box, although it's hard to guess which model might perform better with fine-tuning. This is something I haven't researched thoroughly since I was focused on finding models that fit the hardware limits.  -->
+    - Phi-1.5 is trained on textbooks and has a tendency to fixate on specific topics - soccer games, a classroom setting, a girl named Lily...Microsoft also emphasizes that there was no pretraining done to avoid offensive responses, which is problematic - you don't want something hateful coming out of your teaching assistant in a classroom setting. Good behavior is very difficult to enforce via fine-tuning, so this may be something to handle with more rudimentary filtering (e.g. censoring tokens in output that match to a list of forbidden words).
 	- MMS just isn't good enough. The cadence of the voice is too unnatural for students in the TEFL classroom to understand, and they shouldn't - no real human talks like MMS. I would like to switch to a distilled and/or quantized version of Bark going forward; the main concern is keeping Bark inference under that 10 second limit.
 - [Post-training quantization](https://huggingface.co/docs/optimum/en/concept_guides/quantization) reduces model complexity by converting floating point weights to simpler `long` or `int` types. This can reduce model size and computation time. This can be used to make Teffie fit on even smaller hardware or to utilize larger, more effective models without breaking the VRAM limit. I'm currently using quantization to reduce the size of Phi-1.5, but this was something thrown in ad-hoc to fit Phi-1.5 into the limit - not something carefully chosen.
 - Some stories regarding usability and QoL, such as handling edge case user behavior and using a config file instead of hard-coding prompts and other information.
@@ -235,7 +200,6 @@ Logging is included throughout the program; detailed debug logging can be disabl
 - There are other methods to reduce model size, e.g. [LLM shearing](https://github.com/princeton-nlp/LLM-Shearing) by Xia et al, that might be worth exploring.
 - Instead of hardcoding to specific models on a specific VRAM limit, we could detect the VRAM capacity of a device's hardware and to plug in a selection of models for specific VRAM capacities. For example, pick one set of models if you have 4 GB of VRAM or less to work with, a more powerful set of models for 8 GB, etcetera. 
 	- This could also include a selection of models for hardware that only supports integrated graphics, which is common for older and/or lower-end computers. Integrated graphics uses RAM instead of storing models in dedicated VRAM, which necessitates usage of even smaller and faster models than the 4 GB VRAM case.
-	<!-- - Something to note is that . Here in Łomża, I get  -->
 - Depending on the architecture of Whisper, it maybe possible to create a fork and use a submodule of a Whisper variant that doesn't hardcode sample rate and duration or that hardcodes them to smaller values that can better fit on weaker hardware. If this is possible, this may help reduce computation time. (Without having read the paper or code in depth, my guess is that this would require changing the weights and in turn retraining the model; however, distillation may offer a workaround for this.)
 	- You could make similar arguments about all models; I highlight Whisper because most audio input will be shorter than 30 seconds. This would be most useful in a fully live setting such as the one outlined below; otherwise, the time saving is minimal because you're only transcribing once per loop iteration.
 - There are .cpp implementations of many models that, since they are compiled, take considerably less space and run signifcantly faster; I haven't experimented with these myself. Note that per the second bullet point in this section, I don't necessarily want to attach myself to a strict set of models. 
@@ -265,13 +229,13 @@ The current code runs sequentially (minus keyboard interrupts and usage of callb
 
 The main difference is in how you handle I/O; in a live app, you need to be continously reading and writing from and to audio input / output. It doesn't make sense to transcribe and respond to every frame or every 100 frames of audio input, so transcription needs to be done in chunks of, say, 5 seconds. (This is a hyperparameter you'd need to mess around with.) Additionally, you likely need some additional logic to make sure you are responding to complete sentences, since it wouldn't make sense to create two replies to a sentence that is 8 seconds long (i.e. 2 or 3 chunks).
 
-There's a few different ways to split up tasks. One is audio input / transcription / text generation / speech generation / audio output; basically, each piece of the chatbot pipeline receives its own thread, and each consecutive pair of threads has a producer-consumer relationship. This is the architecture I originally attempted to implement. In retrospect, I think you can get away with just an audio input thread, a response generation thread, and an audio output thread. Again, the most important parts of the pipeline to isolate are the I/O components; in a performant multithreaded application, the largest model will likely be the main performance bottleneck, so there's not much point in splitting up the work within that response generation component[^0]. 
+There's a few different ways to split up tasks. One is audio input / transcription / text generation / speech generation / audio output; basically, each piece of the chatbot pipeline receives its own thread, and each consecutive pair of threads has a producer-consumer relationship. This is the architecture I originally attempted to implement. In retrospect, I think you can get away with just an audio input thread, a response generation thread, and an audio output thread. Again, the most important parts of the pipeline to isolate are the I/O components; in a performant multithreaded application, the largest model will likely be the main performance bottleneck, so there's not much point in splitting up the work within that response generation component[^30]. 
 
-[^0]: I think the more general lesson to take away from this is that if you have a producer-consumer relationship where the producer is the only one supplying the consumer and the consumer is the only one receiving from the producer, that's a big code smell indicating you really don't need them to be separated into threads. I can see a counterexample where the producer runs in, say, 1/10th the time of the consumer and you need to track every produced item (probably on a queue or similar), but in the case of a chatbot, this doesn't make sense - you shouldn't try to generate a separate response to something that was said before you started saying a response back.
+[^30]: I think the more general lesson to take away from this is that if you have a producer-consumer relationship where the producer is the only one supplying the consumer and the consumer is the only one receiving from the producer, that's a big code smell indicating you really don't need them to be separated into threads. I can see a counterexample where the producer runs in, say, 1/10th the time of the consumer and you need to track every produced item (probably on a queue or similar), but in the case of a chatbot, this doesn't make sense - you shouldn't try to generate a separate response to something that was said before you started saying a response back.
 
-One thing that sticks in my head is the thought that a live app could react more realistically to things that happen while a response is being spoken. For instance, if the model is currently playing a response in audio output but is able to detect a speaker interrupting said output with new input, then it could stop the current audio output to then generate a response to the interrupt. Figuring out whether a response "should" be interrupted, however, might be a whole research project by itself[^0]. Note that what we really need here is concurrency between audio input, transcription, and audio output - we don't need concurrency between the response's text and audio generation.
+One thing that sticks in my head is the thought that a live app could react more realistically to things that happen while a response is being spoken. For instance, if the model is currently playing a response in audio output but is able to detect a speaker interrupting said output with new input, then it could stop the current audio output to then generate a response to the interrupt. Figuring out whether a response "should" be interrupted, however, might be a whole research project by itself[^31]. Note that what we really need here is concurrency between audio input, transcription, and audio output - we don't need concurrency between the response's text and audio generation.
 
-[^0]: I have not scoured the literature for existing solutions to this problem. If anyone knows of a relevant paper here, feel free to send it to me! That said, an easy "should" is just that if someone else speaks at all, you interrupt - from my experience, that's what most people do in regular conversation.
+[^31]: I have not scoured the literature for existing solutions to this problem. If anyone knows of a relevant paper here, feel free to send it to me! That said, an easy "should" is just that if someone else speaks at all, you interrupt - from my experience, that's what most people do in regular conversation.
 
 At the end of the day, this live functionality isn't necessarily beneficial. A live bot may require less non-verbal interaction to maintain back-and-forth conversation with an individual speaker, but without additional logic to filter out what a chatbot "shouldn't" be listening to (which itself requires some thinking about how human conversation works), I imagine it would be a fair amount of hassle for listeners to keep track of where the chatbot is in the conversation. Additionally, people in natural human speech usually take turns back and forth speaking, so having a chatbot that queues and attempts to respond to all audio input would not provide a realistic experience. I think this may be an example of me choosing a solution because I want to use a tool (threading / concurrency) that isn't actually needed for the task at hand (TEFL assistant with portable models and quick inference).
 
@@ -283,32 +247,14 @@ Threading may not even be the best solution to implementing a live app; Python's
 
 As mentioned before, teachers do not have a lot of resources. It follows that teachers are unlikely to be buying hardware that is usually used to train, deploy, and run state-of-the-art models. No GPU clusters, no TPUs - heck, many instructors may not even have access to a computer with a dedicated graphics card and may be stuck running integrated graphics. (I imagine many a graduate student forgot to download proprietary drivers and spent orders of magnitude more time training a model than they needed! Or maybe I'm just dumb hehe.)
 
-One way to solve this is to create a server with sufficient memory and compute, host models and perform computaiton there, then serve the AI tools on a front-end that teachers can access on the web. Indeed, if you go to GitHub and search for, say, live transcription by Whisper, this is in line with how most solutions will look. However, from what I've seen, it is not sustainable to host a server for open-source technology like this. If an idea / product takes off hard enough, then there will be too many users to reasonably host a server without requiring compensation. (My experience came from Staticman, a service I'm using to store comments on my static website. Originally there was one single Staticman server everyone used; however, there got to be too many users for the author to be able to justify hosting that endpoint. It didn't help that Heroku has gotten rid of their free tier service.) Most counterexamples to this have commercial sponsors or are provided directly by a commerical entity, and I am uncertain whether a project like Teffie would receive the same kind of attention[^0].
+One way to solve this is to create a server with sufficient memory and compute, host models and perform computaiton there, then serve the AI tools on a front-end that teachers can access on the web. Indeed, if you go to GitHub and search for, say, live transcription by Whisper, this is in line with how most solutions will look. However, from what I've seen, it is not sustainable to host a server for open-source technology like this. If an idea / product takes off hard enough, then there will be too many users to reasonably host a server without requiring compensation. (My experience came from Staticman, a service I'm using to store comments on my static website. Originally there was one single Staticman server everyone used; however, there got to be too many users for the author to be able to justify hosting that endpoint. It didn't help that Heroku has gotten rid of their free tier service.) Most counterexamples to this have commercial sponsors or are provided directly by a commerical entity, and I am uncertain whether a project like Teffie would receive the same kind of attention[^32].
 
-[^0]: You could argue that companies could be interested in high-performance machine learning models on weaker architecture. This is .
-  <!-- don't directly translate to business like other funded, well-maintained open source projects, e.g. Anaconda, Docker, Hadoop... -->
+[^32]: You could argue that companies could be interested in high-performance machine learning models on weaker architecture. I'm just not sure what market this targets because businesses (the biggest consumers of AI products) can usually buy additional resources, which is going to be easier than developing more efficient solutions.
 
 Again: teachers will want to pay monthly subscription fees for additional technology. I don't believe monetization is evil or that it can't help a product develop, but I believe it's important to at least decouple Teffie from freemium AIaaS services. With that in mind, **Teffie must be designed to be portable.** Portable means that a teacher can run Teffie on their laptop without running into CUDA out-of-memory errors.
 
-The main argument against a portable architecture is that most teachers will have hardware too weak to load and run state-of-the-art machine learning models, but on the other hand will have a strong enough internet connection to connect to a server hosting a model. . Additionally, there is always the possibility that AIaaS vendors will paywall their free tier services[^0]. These frequently used, high-performance endpoints cost a lot of resources to develop and maintain, and if a customer can't get the same quality of product elsewhere, then a company can always pressure them to upgrade by pushing down the quality / quantity of free service.
+The main argument against a portable architecture is that most teachers will have hardware too weak to load and run state-of-the-art machine learning models, but on the other hand will have a strong enough internet connection to connect to a server hosting a model. . Additionally, there is always the possibility that AIaaS vendors will paywall their free tier services[^33]. These frequently used, high-performance endpoints cost a lot of resources to develop and maintain, and if a customer can't get the same quality of product elsewhere, then a company can always pressure them to upgrade by pushing down the quality / quantity of free service.
 
-[^0]: For example, as of 21 April 2024, Elevenlabs already limits free tier users to 10,000 characters per month, which is about 10 minutes of audio. An individual lesson typically lasts 1.5 hours, so this limit would significantly restrict possibilities.  
+[^33]: For example, as of 21 April 2024, Elevenlabs already limits free tier users to 10,000 characters per month, which is about 10 minutes of audio. An individual lesson typically lasts 1.5 hours, so this limit would significantly restrict possibilities.  
 
 [Back to table of contents.](#table-of-contents)
-
-<!-- ---
-
-- concerns abt division between teaching and student time 
-	- easier alternative to getting a native speaker? 
-	- students turn to foreign language as a first option if they can't - but chatbots won't change language
-- controlling amount of output - teachers talk too much (TTT), chatbot won't talk too long and won't interrupt and won't control conversation because it has to be controlled
-- downside: students talk to chatbot instead of each other
-- port it to students - HW
-	- more sense for productive tasks; you couulllld have it in class and significantly multiply student speaking
-	- content is a problem, but should be viewed *relative to content in typical discussion*
-- trust teachers to be creative enough to make interesting lesson plans
-- practice w/o specifying rules - acquisition of language is *usage-based** (usage based model of language acquisition)
-	- versus chomsky's universal grammer theory
-	- neurolinguistic programming
- -->
- --> -->
