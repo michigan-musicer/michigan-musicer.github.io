@@ -12,7 +12,7 @@ tags:
   - ai
 ---
 
-Summary and analysis of Teffie, a portable, 100% open-source generative AI teaching assistant for the foreign language classroom.
+**Professional:** summary and analysis of Teffie, a portable, 100% open-source generative AI teaching assistant for the foreign language classroom.
 
 This is meant to be a longer, detailed writeup broken up into smaller, more easily digestible chunks. Jump to a desired section using the table of contents below.
 
