@@ -95,11 +95,11 @@ With all this in mind, I believe Teffie's emphasis on portability adds a level o
 
 [Back to table of contents.](#table-of-contents)
 
-# For teachers
+## For teachers
 
 On LLMs in general and what to expect, my experiments with using Teffie, and suggestions about lesson plans with Teffie. 
 
-## How does generative AI work?
+### How does generative AI work?
 
 When it comes to communication, the cardinal sin of engineers is to assume the other person already understands everything. This is amplified when engineers are explaining something to a non-technical audience. I will do my best to summarize, but please feel free to leave a comment if something is unclear. 
 
@@ -113,13 +113,13 @@ Machine learning models for other tasks exist. Speech to text (also known as aut
 
 When you are using Teffie, your data is not saved or used by Teffie in any way. Teffie just uses the models; it does not send data back to Microsoft or anyone else for use in future model training. The tricky thing is that other AI products *do* use user data - [see this help article from OpenAI on how ChatGPT uses your data to improve performance](https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance). From my experience, it's hard to tell when an AI product trains on user data or not; if you are concerned about a particular AI product, it's best to look this up.
 
-## Existing resources for educators
+### Existing resources for educators
 
 There is already some content online on using generative AI as an educator. UPenn's Wharton Business School has a crash course on [generative AI for education](https://www.youtube.com/watch?v=t9gmyvf7JYo&list=PL0EdWFC9ZZrUAirFa2amE4Hg05KqCWhoq&ab_channel=WhartonSchool). This series targets a general pedagocical audience and, at a glance, doesn't focus too much on using AI directly in the classroom. Christina Cavage from Immerse also provides some [TEFL lesson plan formats employing generative AI](https://www.linkedin.com/feed/update/urn:li:activity:7188577152210976768/). In general, however, most resources on generative AI for education are to make materials for courses and individual lessons, *not* using generative AI directly in the lesson like Teffie is intended to be.  
 
 If you are a TEFL teacher and know more about language learning research about settings with multiple teachers / third-party actors, please let me know!
 
-## Activities with generative AI 
+### Activities with generative AI 
 
 I learned to teach from a [TEFL certification course called CELTA](https://www.cambridgeenglish.org/teaching-english/teaching-qualifications/celta/), which is considered the standard qualification for TEFL teachers. If you have a different background, the general lesson plan structure taught in CELTA is as follows. (There are of course other perfectly fine ways to structure your lesson; this is just the template I usually use.)
 
@@ -157,11 +157,11 @@ Not every lesson should contain Teffie. Even if the generated responses improve 
 
 [Back to table of contents.](#table-of-contents)
 
-# For programmers
+## For programmers
 
 On the current state of the code, todos, and possible additions.
 
-## Technical requirements
+### Technical requirements
 
 - Maintain near-live performance - ideally, keep time between the start of input transcription and the start of audio output within a 10 second time limit. Any longer than this makes it difficult to maintain students' attention.
 - Remain entirely local (within reasonable memory / video memory limits) so that users can run the software with as little technical complication as possible.
@@ -169,7 +169,7 @@ On the current state of the code, todos, and possible additions.
 
 I emphasize again: Teffie is *not* going to maximize the quality of generated text or audio. If you have the financial means and the technical know-how, then in 99% of cases, the correct approach should be to use APIs from commercial vendors for your ML apps. If you are as restricted on hardware as Teffie is meant to be, then there is no way that you will compete with models with 300 billion parameters running on GPU-laden servers that are dedicated to executing ML applications. 
 
-## Current state
+### Current state
 
 Teffie is in a prototype state using out-of-the-box models from HuggingFace. It is implemented as a command-line application; the chatbot runs forever in a loop that goes audio input → audio transcription → text generation → text to speech generation → audio output. 
 
@@ -179,7 +179,7 @@ At the start of the loop, the user is prompted to hit ENTER to start listening f
 
 Logging is included throughout the program; detailed debug logging can be disabled by setting the `DEBUG` variable.
 
-## Things to work on
+### Things to work on
 
 - The vast majority of TEFL teachers will not be running Linux but rather Windows or MacOS. There would be a lot of work needed to improve user experience to levels acceptable for teachers, e.g. UI, installation / program setup, selection of audio hardware[^14]...
 	- I am not familiar with the process of releasing apps on Windows or MacOS, so I'm not sure how difficult the platform engineering would be. To my understanding, however, Python takes much less work to port than C++ or other lower-level languages.
@@ -195,7 +195,7 @@ Logging is included throughout the program; detailed debug logging can be disabl
 
 [^15]: I'm running NVIDIA drivers on Ubuntu 22.04, which from my experience can be a hassle compared to the Windows experience.
 
-## Possible additional features
+### Possible additional features
 
 - There are other methods to reduce model size, e.g. [LLM shearing](https://github.com/princeton-nlp/LLM-Shearing) by Xia et al, that might be worth exploring.
 - Instead of hardcoding to specific models on a specific VRAM limit, we could detect the VRAM capacity of a device's hardware and to plug in a selection of models for specific VRAM capacities. For example, pick one set of models if you have 4 GB of VRAM or less to work with, a more powerful set of models for 8 GB, etcetera. 
