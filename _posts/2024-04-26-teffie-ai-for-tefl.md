@@ -18,13 +18,13 @@ This is meant to be a longer, detailed writeup broken up into smaller, more easi
 
 ## Table of contents
 
-For a five-minute executive summary, [jump here](#executive-summary).
+[Executive summary](#executive-summary).
 
-For a discussion on motivation and previous work, [jump here](#background-and-motivations).
+[Motivation and prior work](#background-and-motivations).
 
-For a teaching-centric discussion on usage of generative AI in the classroom, [jump here](#for-teachers).
+[For teachers: activities and lesson plans employing generative AI.](#for-teachers).
 
-For an engineering-centric discussion on Teffie's current state and future roadmap, [jump here](#for-programmers).
+[For engineers: Teffie current state and roadmap](#for-programmers).
 
 ## Executive summary
 
@@ -38,7 +38,7 @@ To address this problem, Teffie is **serverless and entirely local**, meaning it
 
 Teffie is in a prototype state; the two most pressing needs are friendlier UI / UX and improvements to text and speech generation. I have successfully used generatve AI in the classroom and so have other foreign language teachers, but based on short experiments in some of my classes, Teffie has at least months to go (with a single developer) to reach an MVP state that is easily usable by the average foreign language teacher. 
 
-If you are interested in contributing or providing critique, please reach out! I am currently the only developer on Teffie, and since Teffie is in the early stages and since this is my first open-source project, I am open to discussions on scoping, design, and tech stack. [The source is available on GitHub here](https://github.com/michigan-musicer/teffie) and my email is kevin \[at\] musicer-kw.com. 
+If you are interested in contributing or providing critique, please reach out! I am currently the only developer on Teffie, and since Teffie is in the early stages and since this is my first open-source project, I am open to discussions on scoping, design, and tech stack. [The source is available on GitHub here](https://github.com/michigan-musicer/teffie) and my email is kevin \[at\] musicer-kw.com. You can also leave a comment at the bottom of this page.
 
 [Back to table of contents.](#table-of-contents)
 
@@ -46,17 +46,13 @@ If you are interested in contributing or providing critique, please reach out! I
 
 I am a current scholar in the U.S. Fulbright Student Program in Poland, where I teach English and computer science to college students in rural Poland. I developed Teffie to explore generative AI options in my own classrooms. Teffie's name is a play on TEFL, the standard abbreviation for "teaching English as a foreign language".
 
-My original inspiration is an online entertainer named DougDoug ([YouTube](https://www.youtube.com/@DougDoug), [Twitch](https://www.twitch.tv/dougdoug)). One common way DougDoug structures his streams is to create an AI application that reads from Twitch chat[^1] and, based on that, generate various responses for entertainment. This aspect of DougDoug's content is fundamentally different from other Twitch content because in addition to audience-streamer interactions, the audience and streamer can both interact with the AI agent for more varied content. DougDoug and the creativity of his AI-supplemented content were recognized by the online entertainment industry in the 2023 Streamer Awards with the "League of Their Own" award.
+My original inspiration is an online entertainer named DougDoug ([YouTube](https://www.youtube.com/@DougDoug), [Twitch](https://www.twitch.tv/dougdoug)). One common way DougDoug structures his streams is to create an AI application that reads from Twitch chat[^1] and, based on that, generate various responses for entertainment. This aspect of DougDoug's content is fundamentally different from other Twitch content because in addition to audience-streamer interactions, the audience and streamer can both interact with the AI agent for more varied content. DougDoug and the creativity of his AI-supplemented content were recognized by the online entertainment industry in the 2023 Streamer Awards with the "League of Their Own" award. [Here's a link to an example video](https://www.youtube.com/watch?v=zLAn7Qp69yA).
 
 [^1]: for the uninitiated, Twitch is a livestreaming platform with a chat feature that allows audience members to comment and react live to what is going on in the stream.
 
-A few example videos are shown below:
+DougDoug's content is proof that generative models provide novel options for social interaction, particularly when there is an activity leader (e.g. an entertainer or teacher) and an audience (e.g. Twitch chat or a class of students). I do not recommend directly using DougDoug's content in the classroom, but the variety of interactions that makes DougDoug's content interesting to online audiences can similarly be used to raise student engagement in course content. 
 
-<iframe class="invidious-container" src="https://www.youtube-nocookie.com/embed/zLAn7Qp69yA" title="Invidious video player" frameborder="0" allowfullscreen></iframe>{: .align-center}
-
-<iframe class="invidious-container" src="https://www.youtube-nocookie.com/embed/2fWsaEfQjZc" title="Invidious video player" frameborder="0" allowfullscreen></iframe>{: .align-center}
-
-DougDoug's content is proof that generative models provide novel options for social interaction, particularly when there is an activity leader (e.g. an entertainer or teacher) and an audience (e.g. Twitch chat or a class of students). I do not recommend directly using DougDoug's content in the classroom, but the variety of interactions that makes DougDoug's content interesting to online audiences can similarly be used to raise student engagement in course content. Worth noting is that LLMs (large language models) have problems with accuracy of generated responses, which precludes their usage in many STEM and social science fields. However, LLMs *can* generate stories, answer questions, and simulate human conversation ad-hoc in natural languages. As such, in education, **LLMs are uniquely ideal for the foreign language classroom.**
+Worth noting is that LLMs (large language models) have problems with accuracy of generated responses, which hinders out-of-the-box application in many STEM and social science fields. However, LLMs *can* do a good job of generating stories, answering questions, and simulating human conversation ad-hoc in natural languages because that is how they were trained. As such, in education, **LLMs are uniquely ideal for the foreign language classroom.**
 
 In my view, there are two primary points worth addressing:
 - Teachers want successful lesson plans and other positive results to be convinced to try generative AI themselves.
@@ -116,6 +112,8 @@ When you are using Teffie, your data is not saved or used by Teffie in any way. 
 ### Existing resources for educators
 
 There is already some content online on using generative AI as an educator. UPenn's Wharton Business School has a crash course on [generative AI for education](https://www.youtube.com/watch?v=t9gmyvf7JYo&list=PL0EdWFC9ZZrUAirFa2amE4Hg05KqCWhoq&ab_channel=WhartonSchool). This series targets a general pedagocical audience and, at a glance, doesn't focus too much on using AI directly in the classroom. Christina Cavage from Immerse also provides some [TEFL lesson plan formats employing generative AI](https://www.linkedin.com/feed/update/urn:li:activity:7188577152210976768/). In general, however, most resources on generative AI for education are to make materials for courses and individual lessons, *not* using generative AI directly in the lesson like Teffie is intended to be.  
+
+A professor from my school, Andrew DeOrio, [successfully created and used a generative AI assistant in an advanced computer science course](https://cse.engin.umich.edu/stories/genai-in-computer-science-education-friend-or-foe) this past year. DeOrio's work reinforces the positive role that generative AI can have as an assistant in the classroom. To my understanding, however, the machine learning models in question were trained specifically on assignments for that class and can't be said to generalize yet; Teffie's main purpose is chatting, which does not need to be trained on specific tasks - this allows Teffie to work more out-of-the-box (important for non-technical teachers who may have a variety of use cases) and have wider impact.
 
 If you are a TEFL teacher and know more about language learning research about settings with multiple teachers / third-party actors, please let me know!
 
@@ -258,3 +256,12 @@ The main argument against a portable architecture is that most teachers will hav
 [^33]: For example, as of 21 April 2024, Elevenlabs already limits free tier users to 10,000 characters per month, which is about 10 minutes of audio. An individual lesson typically lasts 1.5 hours, so this limit would significantly restrict possibilities.  
 
 [Back to table of contents.](#table-of-contents)
+
+---
+
+<!-- notes
+- gpus need to be explained - why are gpus important to ML?
+- motivations is a little too technical
+
+ -->
+*Teaser image: [Happy Robot Vectors by Vecteezy](https://www.vecteezy.com/free-vector/happy-robot)*
