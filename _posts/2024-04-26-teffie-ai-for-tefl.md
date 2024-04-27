@@ -1,7 +1,7 @@
 ---
 title: "Teffie: a portable AI chatbot for foreign language teachers"
 header:
-  teaser: "/assets/images/..."
+  teaser: "/assets/images/2024-04-26-teffie-ai-for-tefl/robot_br2_generated.jpg"
 categories: 
   - Software
 tags:
