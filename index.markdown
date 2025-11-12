@@ -13,7 +13,7 @@ Lab](https://systopia.cs.ubc.ca/) at the University of British Columbia. I am
 currently coadvised by [Aastha Mehta](https://aasthakm.github.io/)
 and [Nyugen Phong Hoang](https://homepage.np-tokumei.net/). I am broadly
 interested in systems and network security, particularly in problems relating
-to internet freedom and national defense.
+to internet freedom and national security.
 
 Before arriving at UBC, I graduated from the University of Michigan with both a
 master's and bachelor's in Computer Science and Engineering. I had the pleasure
